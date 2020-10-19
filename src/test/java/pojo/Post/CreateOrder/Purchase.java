@@ -1,36 +1,27 @@
-package pojo.GetUsers;
-
-import com.fasterxml.jackson.annotation.*;
+package pojo.Post.CreateOrder;
 
 import java.util.HashMap;
 import java.util.Map;
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-        "company",
         "url",
-        "text"
+        "method"
 })
-public class Ad {
+public class Purchase {
 
-    @JsonProperty("company")
-    private String company;
     @JsonProperty("url")
     private String url;
-    @JsonProperty("text")
-    private String text;
+    @JsonProperty("method")
+    private String method;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-
-    @JsonProperty("company")
-    public String getCompany() {
-        return company;
-    }
-
-    @JsonProperty("company")
-    public void setCompany(String company) {
-        this.company = company;
-    }
 
     @JsonProperty("url")
     public String getUrl() {
@@ -42,14 +33,14 @@ public class Ad {
         this.url = url;
     }
 
-    @JsonProperty("text")
-    public String getText() {
-        return text;
+    @JsonProperty("method")
+    public String getMethod() {
+        return method;
     }
 
-    @JsonProperty("text")
-    public void setText(String text) {
-        this.text = text;
+    @JsonProperty("method")
+    public void setMethod(String method) {
+        this.method = method;
     }
 
     @JsonAnyGetter
