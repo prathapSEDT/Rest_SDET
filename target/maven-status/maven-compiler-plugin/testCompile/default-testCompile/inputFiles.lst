@@ -1,1 +1,14 @@
-/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/com/rest/Tc_01.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/pojo/Get/GetCustomerByID.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/com/httpmethods/get/GetRequest.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/com/frameworkutils/FakerData.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/com/frameworkutils/Utils.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/com/testcases/TC_01.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/com/httpmethods/put/PutRequest.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/pojo/CreateCustomer/CreateCustomerResponse.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/pojo/Post/CreateOrder/Actions.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/com/testcases/TC_02_Faker.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/com/httpmethods/post/PostRequest.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/pojo/CreateCustomer/CreateCustomer.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/pojo/Post/CreateOrder/Purchase.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/pojo/Post/CreateOrder/CreateOrder.java
+/Users/veeraprathapmalepati/IdeaProjects/RestAssured/src/test/java/com/httpmethods/delete/DeleteRequest.java

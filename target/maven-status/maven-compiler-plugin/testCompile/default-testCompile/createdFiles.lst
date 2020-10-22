@@ -1,1 +1,14 @@
-com/rest/Tc_01.class
+com/httpmethods/delete/DeleteRequest.class
+com/testcases/TC_02_Faker.class
+com/frameworkutils/FakerData.class
+pojo/CreateCustomer/CreateCustomerResponse.class
+com/testcases/TC_01.class
+com/httpmethods/post/PostRequest.class
+pojo/CreateCustomer/CreateCustomer.class
+pojo/Post/CreateOrder/CreateOrder.class
+pojo/Post/CreateOrder/Actions.class
+com/frameworkutils/Utils.class
+pojo/Post/CreateOrder/Purchase.class
+pojo/Get/GetCustomerByID.class
+com/httpmethods/get/GetRequest.class
+com/httpmethods/put/PutRequest.class

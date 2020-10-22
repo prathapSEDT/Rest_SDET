@@ -1,5 +1,6 @@
 package com.testcases;
 
+import com.httpmethods.delete.DeleteRequest;
 import com.httpmethods.get.GetRequest;
 import com.httpmethods.post.PostRequest;
 import com.httpmethods.put.PutRequest;
@@ -22,6 +23,10 @@ public class TC_01 {
 
         //create order
         postRequest.createOrder(custID);
+
+        //delete customer
+        DeleteRequest deleteRequest=new DeleteRequest();
+        deleteRequest.deleteCustomer_By_ID(custID);
 
     }
 }
