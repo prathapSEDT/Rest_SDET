@@ -3,6 +3,7 @@ package com.httpmethods.post;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.frameworkutils.Utils;
+import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import pojo.CreateCustomer.CreateCustomer;
@@ -13,6 +14,7 @@ import java.io.IOException;
 
 public class PostRequest extends Utils {
 
+    @Step("Creating a customer on the system")
     public String createCustomer() throws IOException {
         CreateCustomer createCustomerPayload=getCreateCustomerPayload();
         RestAssured.baseURI=getConfigProperty("BASEURI");
@@ -38,7 +40,7 @@ public class PostRequest extends Utils {
 
 
     }
-
+@Step("Creating an order for a customer")
     public String createOrder(String custID) throws IOException {
 
         RestAssured.baseURI=getConfigProperty("BASEURI");

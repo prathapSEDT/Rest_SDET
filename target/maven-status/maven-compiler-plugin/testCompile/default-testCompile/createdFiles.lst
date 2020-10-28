@@ -1,5 +1,4 @@
 com/httpmethods/delete/DeleteRequest.class
-com/testcases/TC_02_Faker.class
 com/frameworkutils/FakerData.class
 pojo/CreateCustomer/CreateCustomerResponse.class
 com/testcases/TC_01.class

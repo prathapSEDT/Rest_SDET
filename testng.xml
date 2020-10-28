@@ -8,8 +8,8 @@
     </groups>
     <test  name="QA Test" >
         <classes>
-            <class name="com.testcases.TG_02" />
-            <class name="com.testcases.TS_01" />
+            <class name="com.testcases.TC_01" />
+
         </classes>
     </test>
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGXMLTest Test Suite" duration-ms="12" started-at="2020-10-27T08:00:22 IST" finished-at="2020-10-27T08:00:22 IST">
+    <groups>
+    </groups>
+    <test name="QA Test" duration-ms="12" started-at="2020-10-27T08:00:22 IST" finished-at="2020-10-27T08:00:22 IST">
+    </test> <!-- QA Test -->
+  </suite> <!-- TestNGXMLTest Test Suite -->
+</testng-results>

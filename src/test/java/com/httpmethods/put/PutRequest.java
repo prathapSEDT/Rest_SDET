@@ -3,6 +3,7 @@ package com.httpmethods.put;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.frameworkutils.Utils;
+import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import pojo.CreateCustomer.CreateCustomer;
@@ -11,6 +12,7 @@ import pojo.CreateCustomer.CreateCustomerResponse;
 import java.io.IOException;
 
 public class PutRequest extends Utils {
+    @Step("Update the customer with the id {0}")
     public void upDateCustomer(String custID) throws IOException {
         CreateCustomer createCustomerPayload=getCreateCustomerPayload();
         RestAssured.baseURI=getConfigProperty("BASEURI");
